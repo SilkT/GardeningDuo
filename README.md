@@ -1,3 +1,4 @@
 # GardeningDuo
 ESP8266 based automated plants watering
 Project is based on ESP8266 Wi-Fi enabled microcontroller and use of two analog moisture sensors. The data is logged from said sensors and compared to values stored in cloud represented by google spreadsheet accesed by connecting to internet. In case of necessity, the relay on board is triggered and the plant is watered using the connected pump. Information from sensors is also logged and stored in a spreadsheet, where is can be displayed as a graph. Hardware part of the project consists of esp12e breakout board, dual moisture sensors, and two relays that control the pumps. For software, Arduino IDE is used because of high availability of  open source code and simplicity of work with esp8266 chips.
+Only Hardware part is avalible in this repo at the moment.
